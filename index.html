@@ -3,111 +3,334 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gul Medical Lab Bannu</title>
+    <title>New Umar Medical Laboratory | Bannu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Gul Medical Lab Bannu</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#registration">Patient Registration</a></li>
-                <li><a href="#history">Patient History</a></li>
-                <li><a href="#tests">Tests</a></li>
-                <li><a href="#report">Report Generator</a></li>
-                <li><a href="#login">Login</a></li>
-                <li><a href="#logout">Logout</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="topbar">
+        <div class="branding">
+            <div class="logo">NU</div>
+            <div>
+                <p class="eyebrow">Medical Lab Management System</p>
+                <h1>New Umar Medical Laboratory, Bannu</h1>
+            </div>
+        </div>
+        <div class="top-actions">
+            <div class="contact-chip">24/7 Support: <a href="tel:+92928661056">+92 928 661056</a></div>
+            <div class="contact-chip">Email: <a href="mailto:care@newumarlab.pk">care@newumarlab.pk</a></div>
+            <a class="cta" href="#registration">New Patient</a>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Welcome to Gul Medical Lab</h2>
-        <p>Providing accurate and reliable medical testing services in Bannu.</p>
-    </section>
+    <nav class="main-nav">
+        <a href="#overview">Overview</a>
+        <a href="#services">Services</a>
+        <a href="#registration">Patient Intake</a>
+        <a href="#tests">Test Catalog</a>
+        <a href="#tracking">Sample Tracking</a>
+        <a href="#reports">Reports & Billing</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Blood Tests</li>
-            <li>Urine Analysis</li>
-            <li>COVID-19 Testing</li>
-            <li>Hormone Testing</li>
-            <li>Diagnostic Imaging</li>
-        </ul>
-    </section>
+    <main>
+        <section id="overview" class="hero">
+            <div>
+                <p class="eyebrow">Accredited diagnostics, modern LIS, and end-to-end automation</p>
+                <h2>Complete Medical Lab Management for Bannu</h2>
+                <p class="lede">Manage patient intake, order entry, sample logistics, quality control, reporting, and billing from one streamlined dashboard. Built for New Umar Medical Laboratory to deliver accurate results with rapid turnaround time.</p>
+                <div class="hero-actions">
+                    <a class="cta" href="#registration">Register a Patient</a>
+                    <a class="ghost" href="#services">See all capabilities</a>
+                </div>
+                <ul class="pill-list">
+                    <li>HL7-ready workflows</li>
+                    <li>Barcode-based tracking</li>
+                    <li>Consultant review & e-sign</li>
+                    <li>Secure patient portal</li>
+                </ul>
+            </div>
+            <div class="hero-card">
+                <div class="stat-grid">
+                    <div class="stat">
+                        <p class="eyebrow">Daily Capacity</p>
+                        <strong>1,500+</strong>
+                        <span>Samples processed</span>
+                    </div>
+                    <div class="stat">
+                        <p class="eyebrow">Turnaround</p>
+                        <strong>2.5 hrs</strong>
+                        <span>Average TAT for routine tests</span>
+                    </div>
+                    <div class="stat">
+                        <p class="eyebrow">Accuracy</p>
+                        <strong>99.8%</strong>
+                        <span>QC verified results</span>
+                    </div>
+                    <div class="stat">
+                        <p class="eyebrow">Coverage</p>
+                        <strong>80+</strong>
+                        <span>Test panels & profiles</span>
+                    </div>
+                </div>
+                <div class="checklist">
+                    <h3>End-to-end modules</h3>
+                    <ul>
+                        <li>Patient registration & digital consent</li>
+                        <li>Doctor order entry & panel selection</li>
+                        <li>Barcode-based phlebotomy slips</li>
+                        <li>Real-time sample location updates</li>
+                        <li>Result approval with consultant e-sign</li>
+                        <li>Billing, discounts, and insurance claims</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section id="registration">
-        <h2>Patient Registration</h2>
-        <form id="registrationForm">
-            <input type="text" placeholder="Full Name" required>
-            <input type="number" placeholder="Age" required>
-            <input type="text" placeholder="Gender" required>
-            <input type="text" placeholder="Contact Number" required>
-            <button type="submit">Register</button>
-        </form>
-    </section>
+        <section id="services" class="panel">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Capabilities</p>
+                    <h2>All operational features built-in</h2>
+                    <p class="lede">From front desk to consultant review, every stage of the lab lifecycle is covered.</p>
+                </div>
+                <div class="badge">ISO 15189 aligned</div>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Patient & Physician Portal</h3>
+                    <p>Online bookings, digital consent, secure patient history, and referring physician dashboards.</p>
+                </article>
+                <article class="card">
+                    <h3>Order Entry & Test Catalog</h3>
+                    <p>Custom panels, dynamic pricing, reference ranges, and automated pre-requisites for each test.</p>
+                </article>
+                <article class="card">
+                    <h3>Sample Collection & Tracking</h3>
+                    <p>Barcode labels, chain of custody, courier handoff logs, and temperature-controlled transport logs.</p>
+                </article>
+                <article class="card">
+                    <h3>Quality Control</h3>
+                    <p>Daily controls, delta checks, critical value alerts, and lot-to-lot validation history.</p>
+                </article>
+                <article class="card">
+                    <h3>Reporting & Delivery</h3>
+                    <p>Template-based reports, consultant e-signatures, PDF export, SMS/email delivery, and patient portal view.</p>
+                </article>
+                <article class="card">
+                    <h3>Billing & Insurance</h3>
+                    <p>Cashless insurance flow, discounts, outstanding tracking, and integrated receipt generation.</p>
+                </article>
+                <article class="card">
+                    <h3>Inventory & Equipment</h3>
+                    <p>Reagent stock, reorder alerts, maintenance logs, and analyzer uptime tracking.</p>
+                </article>
+                <article class="card">
+                    <h3>Analytics</h3>
+                    <p>Turnaround dashboards, revenue by test, physician performance, and QC trends.</p>
+                </article>
+            </div>
+        </section>
 
-    <section id="history">
-        <h2>Patient History</h2>
-        <form id="historyForm">
-            <input type="text" placeholder="Patient Name" required>
-            <textarea placeholder="Medical History Notes" required></textarea>
-            <button type="submit">Save History</button>
-        </form>
-    </section>
+        <section id="registration" class="panel form-panel">
+            <div>
+                <p class="eyebrow">Front Desk</p>
+                <h2>Patient registration</h2>
+                <p class="lede">Capture demographics, contact info, referring doctor, and requested tests in one step.</p>
+                <form id="registrationForm" class="grid-form">
+                    <label>Full Name<input type="text" name="name" placeholder="Patient full name" required></label>
+                    <label>Age<input type="number" name="age" min="0" max="120" required></label>
+                    <label>Gender<select name="gender" required><option value="">Select</option><option>Male</option><option>Female</option><option>Other</option></select></label>
+                    <label>Contact Number<input type="tel" name="contact" placeholder="03xx-xxxxxxx" required></label>
+                    <label>Email<input type="email" name="email" placeholder="patient@email.com"></label>
+                    <label>Address<input type="text" name="address" placeholder="Street, Bannu" required></label>
+                    <label>Referring Doctor<input type="text" name="doctor" placeholder="Dr. Khan"></label>
+                    <label>Test or Panel<select name="test" required>
+                        <option value="">Select a test</option>
+                        <option>Complete Blood Count (CBC)</option>
+                        <option>Comprehensive Metabolic Panel</option>
+                        <option>HbA1c</option>
+                        <option>Lipid Profile</option>
+                        <option>Thyroid Profile</option>
+                        <option>COVID-19 PCR</option>
+                    </select></label>
+                    <label>Preferred Date<input type="date" name="date" required></label>
+                    <label>Priority<select name="priority"><option>Routine</option><option>Urgent</option><option>Stat</option></select></label>
+                    <label>Notes<textarea name="notes" placeholder="Fasting required, bring previous reports"></textarea></label>
+                    <button type="submit" class="cta">Save registration</button>
+                </form>
+            </div>
+            <aside class="aside">
+                <h3>Today’s queue</h3>
+                <ul id="queueList" class="stack-list"></ul>
+                <p class="muted">Entries are stored locally for demo purposes.</p>
+            </aside>
+        </section>
 
-    <section id="tests">
-        <h2>Tests</h2>
-        <form id="testsForm">
-            <input type="text" placeholder="Patient Name" required>
-            <input type="text" placeholder="Test Name" required>
-            <input type="date" placeholder="Test Date" required>
-            <button type="submit">Add Test</button>
-        </form>
-    </section>
+        <section id="tests" class="panel">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Catalog</p>
+                    <h2>High-volume and specialty testing</h2>
+                    <p class="lede">Standard panels with pricing and turnaround times.</p>
+                </div>
+                <div class="legend">
+                    <span class="badge">Routine</span>
+                    <span class="badge secondary">Urgent</span>
+                </div>
+            </div>
+            <div class="table" role="table">
+                <div class="table-row table-head" role="row">
+                    <div>Test</div>
+                    <div>Preparation</div>
+                    <div>TAT</div>
+                    <div>Price</div>
+                </div>
+                <div class="table-row" role="row">
+                    <div>CBC</div>
+                    <div>No fasting required</div>
+                    <div>2 hours</div>
+                    <div>Rs. 900</div>
+                </div>
+                <div class="table-row" role="row">
+                    <div>Lipid Profile</div>
+                    <div>10–12 hours fasting</div>
+                    <div>4 hours</div>
+                    <div>Rs. 1800</div>
+                </div>
+                <div class="table-row" role="row">
+                    <div>HbA1c</div>
+                    <div>No fasting required</div>
+                    <div>3 hours</div>
+                    <div>Rs. 1500</div>
+                </div>
+                <div class="table-row" role="row">
+                    <div>Thyroid Profile</div>
+                    <div>No fasting required</div>
+                    <div>5 hours</div>
+                    <div>Rs. 2200</div>
+                </div>
+                <div class="table-row" role="row">
+                    <div>COVID-19 PCR</div>
+                    <div>Nasopharyngeal swab</div>
+                    <div>24 hours</div>
+                    <div>Rs. 3500</div>
+                </div>
+            </div>
+        </section>
 
-    <section id="report">
-        <h2>Report Generator</h2>
-        <form id="reportForm">
-            <input type="text" placeholder="Patient Name" required>
-            <textarea placeholder="Test Results" required></textarea>
-            <button type="submit">Generate Report</button>
-        </form>
-    </section>
+        <section id="tracking" class="panel tracking">
+            <div>
+                <p class="eyebrow">Logistics</p>
+                <h2>Sample tracking & chain of custody</h2>
+                <p class="lede">Barcode, specimen type, courier handoff, and temperature logs in one place.</p>
+                <form id="trackingForm" class="grid-form">
+                    <label>Accession / Barcode<input type="text" name="barcode" required placeholder="NU-24-00123"></label>
+                    <label>Specimen<select name="specimen" required><option value="">Choose</option><option>Whole blood (EDTA)</option><option>Serum</option><option>Urine</option><option>Swab</option><option>Biopsy</option></select></label>
+                    <label>Status<select name="status" required><option>Collected</option><option>In Transit</option><option>Received at Lab</option><option>Processing</option><option>Completed</option></select></label>
+                    <label>Courier / Technician<input type="text" name="courier" placeholder="Ahmed - Rider 12"></label>
+                    <label>Temperature<input type="text" name="temperature" placeholder="4°C"></label>
+                    <label>Notes<textarea name="comment" placeholder="Ice pack added"></textarea></label>
+                    <button type="submit" class="ghost">Update log</button>
+                </form>
+            </div>
+            <aside class="aside">
+                <h3>Live chain of custody</h3>
+                <ol id="trackingLog" class="timeline"></ol>
+            </aside>
+        </section>
 
-    <section id="login">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <input type="text" id="username" placeholder="Username" required>
-            <input type="password" id="password" placeholder="Password" required>
-            <button type="submit">Login</button>
-        </form>
-    </section>
+        <section id="reports" class="panel reports">
+            <div>
+                <p class="eyebrow">Reporting & Billing</p>
+                <h2>Generate results, approvals, and receipts</h2>
+                <p class="lede">Structured templates ensure consistency and compliance.</p>
+                <form id="reportForm" class="grid-form">
+                    <label>Patient<input type="text" name="patient" placeholder="Patient full name" required></label>
+                    <label>Test<input type="text" name="test" placeholder="e.g., CBC" required></label>
+                    <label>Result Summary<textarea name="result" placeholder="Hemoglobin: 13.5 g/dL ..." required></textarea></label>
+                    <label>Consultant<input type="text" name="consultant" placeholder="Dr. Sara, Pathologist"></label>
+                    <label>Billing Amount<input type="number" name="amount" min="0" placeholder="1800" required></label>
+                    <label>Payment Status<select name="status"><option>Pending</option><option>Paid</option><option>Insurance</option></select></label>
+                    <button type="submit" class="cta">Save & send</button>
+                </form>
+            </div>
+            <aside class="aside">
+                <h3>Recent reports & invoices</h3>
+                <ul id="reportList" class="stack-list"></ul>
+            </aside>
+        </section>
 
-    <section id="logout">
-        <h2>Logout</h2>
-        <form id="logoutForm">
-            <p>You are currently logged in.</p>
-            <button type="submit">Logout</button>
-        </form>
-    </section>
+        <section id="analytics" class="panel analytics">
+            <div class="section-head">
+                <div>
+                    <p class="eyebrow">Insights</p>
+                    <h2>Performance dashboard</h2>
+                    <p class="lede">Operational metrics updated from the forms above for demonstration.</p>
+                </div>
+                <div class="badge secondary">Real-time preview</div>
+            </div>
+            <div class="analytics-grid">
+                <div class="metric">
+                    <p class="eyebrow">Registrations today</p>
+                    <strong id="metricRegistrations">0</strong>
+                    <span>Patients added via intake</span>
+                </div>
+                <div class="metric">
+                    <p class="eyebrow">Samples in transit</p>
+                    <strong id="metricTransit">0</strong>
+                    <span>Currently between sites</span>
+                </div>
+                <div class="metric">
+                    <p class="eyebrow">Reports sent</p>
+                    <strong id="metricReports">0</strong>
+                    <span>Delivered with billing</span>
+                </div>
+                <div class="metric">
+                    <p class="eyebrow">Outstanding payments</p>
+                    <strong id="metricPending">0</strong>
+                    <span>Invoices not yet paid</span>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+        <section id="contact" class="panel contact">
+            <div>
+                <p class="eyebrow">Visit us</p>
+                <h2>New Umar Medical Laboratory</h2>
+                <p class="lede">Near DHQ Hospital Road, Bannu City, Khyber Pakhtunkhwa</p>
+                <ul class="contact-list">
+                    <li><strong>Phone:</strong> <a href="tel:+92928661056">+92 928 661056</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:care@newumarlab.pk">care@newumarlab.pk</a></li>
+                    <li><strong>Hours:</strong> 24/7 sample collection, reporting 8am–10pm</li>
+                </ul>
+            </div>
+            <div class="contact-card">
+                <h3>Support Channels</h3>
+                <ul>
+                    <li>WhatsApp status updates</li>
+                    <li>SMS and email result delivery</li>
+                    <li>Dedicated physician hotline</li>
+                    <li>Home collection booking</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
-    <footer>
-        <p>&copy; 2025 Gul Medical Lab Bannu. All rights reserved.</p>
+    <footer class="footer">
+        <div>
+            <p class="eyebrow">Built for precision</p>
+            <p>New Umar Medical Laboratory, Bannu — Medical Lab Management System</p>
+        </div>
+        <div class="footer-links">
+            <a href="#services">Capabilities</a>
+            <a href="#registration">Registration</a>
+            <a href="#reports">Reports</a>
+            <a href="#contact">Contact</a>
+        </div>
     </footer>
 
     <script src="script.js"></script>
